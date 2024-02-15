@@ -1,0 +1,118 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'poppins', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #cac7a2; /* Color de fondo */
+    color: #352b24; /* Color del texto */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #654d4a; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background-color: #a18e77; /* Color de fondo */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #fff; /* Color del texto */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    background-color: #a18e77; /* Color de fondo */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service h3 {
+    color: #fff; /* Color del texto */
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #654d4a; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.1);
+  }
+  
